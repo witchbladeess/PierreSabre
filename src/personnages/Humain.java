@@ -19,7 +19,7 @@ public class Humain {
 		return money;
 	}
 
-	private void parler(String texte) {
+	public void parler(String texte) {
 		System.out.println("(" + name + ") - " + texte);
 	}
 
